@@ -1,2 +1,8 @@
 1.Implement Your Own sizeof
 https://www.geeksforgeeks.org/implement-your-own-sizeof/
+
+2. determine endianness of your machine?
+https://www.geeksforgeeks.org/little-and-big-endian-mystery/
+
+3. How to see memory representation of multibyte data types on your machine?
+https://www.geeksforgeeks.org/little-and-big-endian-mystery/
