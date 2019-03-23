@@ -1,11 +1,10 @@
+
 //Find out greater in 2 numbers
 //based on https://www.geeksforgeeks.org/smallest-of-three-integers-without-comparison-operators/
-/*
-    Subtracting 1 from each number one by one untill one of them becomes zero
-*/
 
 #include "../../COMMON/common.h"
 
+//Subtracting 1 from each number one by one untill one of them becomes zero
 int Greater3(int a, int b)
 {
     int temp1 = a, temp2 = b;
