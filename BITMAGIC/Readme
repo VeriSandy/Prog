@@ -25,3 +25,5 @@ Other cases xor will be zero as freuency of element in subarrays will be even so
 into account.
 https://www.geeksforgeeks.org/xor-subarray-xors-set-2/
 
+8. Check if two numbers are bit rotations of each other or not
+https://www.geeksforgeeks.org/check-two-numbers-bit-rotations-not/
