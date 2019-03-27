@@ -16,3 +16,12 @@ https://www.geeksforgeeks.org/position-of-rightmost-set-bit/
 
 6. Check if all bits of a number are set
 https://www.geeksforgeeks.org/check-bits-number-set/
+
+7. XOR of all subarray XORs | Set 1
+https://www.geeksforgeeks.org/xor-subarray-xors/
+Another way...
+It is observation of above method. If no of elements in array is odd then only we need to xor of elements at even postions. 
+Other cases xor will be zero as freuency of element in subarrays will be even so there is no point of taking those elements 
+into account.
+https://www.geeksforgeeks.org/xor-subarray-xors-set-2/
+
