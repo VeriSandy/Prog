@@ -7,9 +7,9 @@
 
 //no need to merge arrays here just keep track of n-1th and nth element, as total size after merging would be 2n
 
-#include "../COMMON/common.h"
+#include "../../COMMON/common.h"
 
-int getMedian(int a, int b, int n)
+int getMedian(int *a, int *b, int n)
 {   
     if(!n) return 0;
     
@@ -46,8 +46,11 @@ int getMedian(int a, int b, int n)
             k++;
         }
     }
+
+    
     return (m1+m2)/2;
 }
+
 
 int main()
 {
@@ -56,7 +59,6 @@ int main()
 
     int n1 = sizeof(ar1)/sizeof(ar1[0]);
     int n2 = sizeof(ar2)/sizeof(ar2[0]);
-    printf("Median is %d", getMedian(ar1, ar2, n1));
-    
+    printf("Median is %d\n", getMedian(ar1, ar2, n1));
     return 0;
 }
